@@ -1,0 +1,27 @@
+Author : Matt Lankford
+WebSite : ThePartTimeCTO.com/easymailer
+License : GPL
+Notes:
+
+Works with PHP 4.x Plus
+
+You can set the from address in a hidden form like the following:
+<input type="hidden" name="From" value="me@mydomain.com" />
+The "From" is case sensitive
+
+You can set the format in a hidden form like the following:
+<input type="hidden" name="Format" value="xml" />
+The "Format" and "xml" are case sensitive
+
+You can set the email subject in a hidden form like the following:
+<input type="hidden" name="Subject" value="My Email Subject" />
+The "Subject" is case sensitive
+
+You can set the redirect page in a hidden form like the following:
+<input type="hidden" name="Redirect" value="http://mydomain.com/thankyou.html" />
+The "Redirect" is case sensitive
+
+Set this line to the address you want the email to be sent to.
+DO NOT set this from your form... it is a MAJOR security hole
+that will open your server up as an open relay and get you banned from the
+entire Internet for all time
