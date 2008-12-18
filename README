@@ -1,9 +1,22 @@
 Author : Matt Lankford
 WebSite : ThePartTimeCTO.com/easymailer
 License : GPL
-Notes:
 
-Works with PHP 4.x Plus
+ABOUT:
+Simple Form To Email is a script that will take any data from an HTML form and send it to a pre-configured email address.
+
+FEATURES:
+You can create as many HTML forms as you like and submit them to the same URL
+Email can formatted in XML so that you can parse for a database
+Email can be formatted in YAML for easy human readable format
+XML or YAML format can be specified from each HTML form
+The email subject is set from each HTML form so you can keep track of what form the data is coming from
+After the form is processed, you can redirect the user to another page ... like http://mydomain.com/Thankyou from the form
+
+REQUIREMENTS:
+A webserver with PHP 4.x Plus
+
+SETTINGS:
 
 You can set the from address in a hidden form like the following:
 <input type="hidden" name="From" value="me@mydomain.com" />
