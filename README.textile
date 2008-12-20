@@ -1,0 +1,41 @@
+h2. Author : Matt Lankford
+
+h2. License : GPL
+
+h2. ABOUT:
+
+Simple Form To Email is a script that will take any data from an HTML form and send it to a pre-configured email address.
+
+h2. FEATURES:
+
+You can create as many HTML forms as you like and submit them to the same URL
+Email can formatted in XML so that you can parse for a database
+Email can be formatted in YAML for easy human readable format
+XML or YAML format can be specified from each HTML form
+The email subject is set from each HTML form so you can keep track of what form the data is coming from
+After the form is processed, you can redirect the user to another page ... like http://mydomain.com/Thankyou from the form
+
+h2. REQUIREMENTS:
+
+A webserver with PHP 4.x Plus
+
+h2. SETTINGS:
+
+You can set the from address in a hidden form like the following:
+<input type="hidden" name="From" value="me@mydomain.com" />
+The "From" is case sensitive
+
+You can set the format in a hidden form like the following:
+<input type="hidden" name="Format" value="xml" />
+The "Format" and "xml" are case sensitive
+
+You can set the email subject in a hidden form like the following:
+<input type="hidden" name="Subject" value="My Email Subject" />
+The "Subject" is case sensitive
+
+You can set the redirect page in a hidden form like the following:
+<input type="hidden" name="Redirect" value="http://mydomain.com/thankyou.html" />
+The "Redirect" is case sensitive
+
+Matt Lankford
+ThePartTimeCTO.com
