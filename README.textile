@@ -21,6 +21,7 @@ A webserver with PHP 4.x Plus
 
 h2. SETTINGS:
 
+=
 You can set the from address in a hidden form like the following:
 <input type="hidden" name="From" value="me@mydomain.com" />
 The "From" is case sensitive
@@ -36,6 +37,6 @@ The "Subject" is case sensitive
 You can set the redirect page in a hidden form like the following:
 <input type="hidden" name="Redirect" value="http://mydomain.com/thankyou.html" />
 The "Redirect" is case sensitive
-
+=
 Matt Lankford
 ThePartTimeCTO.com
